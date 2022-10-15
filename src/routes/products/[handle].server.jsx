@@ -58,6 +58,7 @@ const QUERY = gql`
       variants(first: 100) {
         nodes {
           id
+          availableForSale
           priceV2 {
             amount
             currencyCode
